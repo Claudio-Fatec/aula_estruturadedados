@@ -21,3 +21,18 @@ print(lista)
 lista.insert(3,'banana')
 
 print(lista)
+
+# Mais algumas inserções
+lista.insert(0,'uva')
+lista.append('morango')
+lista.append('mamão')
+
+print(lista)
+
+#Fazendo algumas consultas
+primeira = lista.peek(0)
+pos5 = lista.peek(5)
+ultima = lista.peek(-1)
+penultima = lista.pee(-2)
+
+print(f"PRIMEIRA FRUTA: {primeira}; FRUTA NA POS. 5:{pos5}; ÚLTIMA: {ultima}; PENÚLTIMA: {penultima}")
